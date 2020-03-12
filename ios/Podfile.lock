@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - upi_india (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - upi_india (from `.symlinks/plugins/upi_india/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  upi_india:
+    :path: ".symlinks/plugins/upi_india/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  upi_india: 2af20783ac7c0d0a7205fe1715104c4d826e71d3
+
+PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
+
+COCOAPODS: 1.8.4
