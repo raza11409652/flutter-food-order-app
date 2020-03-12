@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:zeego/pages/signup_page.dart';
 
 class SignIn extends StatefulWidget {
   @override
@@ -83,6 +84,15 @@ class _SignInState extends State<SignIn> {
               onTap: (){
 
               },
+            ) , 
+            MaterialButton(padding: EdgeInsets.all(10.0),
+            onPressed: (){
+              Navigator.of(context).pushReplacement(
+                MaterialPageRoute(builder: (BuildContext ctx)=>SignUp())
+              );
+            },
+            textColor: Colors.redAccent,
+            child: Text("Don't have account Sign up"),
             )
           
           ],
